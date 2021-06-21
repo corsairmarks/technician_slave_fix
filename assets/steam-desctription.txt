@@ -30,6 +30,7 @@ This mod can be safely added or removed from your savegame after the game has st
 [*]1.0.0 Initial Version
 [*]1.0.1 Added incompatibility warning to README/description
 [*]2.0.0 Compatible with Stellaris version 3.0.3
+[*]2.0.1 Remove extra images files to keep distribution lightweight (no script changes)
 [/list]
 
 [h2]Source Code[/h2]
