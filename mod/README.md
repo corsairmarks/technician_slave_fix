@@ -4,7 +4,7 @@ Are your (non-domestic) slaves refusing to generate energy credits?  This mod wi
 
 # Changes
 
-This mod replaces the `pop_jobs\03_worker_jobs.txt` file that defines most worker-strata jobs.  The only change is to
+This mod replaces the `common/pop_jobs/03_worker_jobs.txt` file that defines most worker-strata jobs.  The only change is to
 modify the weight condition for the `technician` job for enslaved populations (that are not domestic slaves).  The condition was incorrectly
 a `NOR` which requires every condition to be false (in this case, four flavors of energy credit traits) - this means that slaves **without**
 energy-enhancing traits will more strongly prefer being technicians.  This is the opposite of what should be intuitively happening.  To fix
