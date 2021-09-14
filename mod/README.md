@@ -12,6 +12,8 @@ this inverted rule, the condition is changed to an `OR` which applies the bonus 
 
 ## Compatibility
 
+Built for Stellaris version 3.1.1 "Lem."
+
 **If you use StarNet AI or StarTech AI, you do not need this mod.**  In fact, it will mess up the custom job re-weighting in that mod because they alter the same file.
 
 Because it replaces a core Stellaris file, this mod is inherently incompatible with any other mods that overwrite the same file.  Generally,
