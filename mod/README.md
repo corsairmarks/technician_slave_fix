@@ -12,7 +12,7 @@ this inverted rule, the condition is changed to an `OR` which applies the bonus 
 
 ## Compatibility
 
-**If you use StarNet AI, you do not need this mod.**  In fact, it will mess up the custom job re-weighting in that mod because they alter the same file.
+**If you use StarNet AI or StarTech AI, you do not need this mod.**  In fact, it will mess up the custom job re-weighting in that mod because they alter the same file.
 
 Because it replaces a core Stellaris file, this mod is inherently incompatible with any other mods that overwrite the same file.  Generally,
 any mod that alters the default worker jobs will not be compatible with this one.  Altering jobs for other strata should work as expected
