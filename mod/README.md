@@ -1,6 +1,6 @@
 # Overview
 
-Are your (non-domestic) slaves refusing to generate energy credits?  This mod will get them back to work producing wealth for their owners.
+Are your (non-domestic) slaves refusing to take Technician jobs?  This mod will get them back to work producing wealth for their owners.
 
 # Changes
 
@@ -20,7 +20,7 @@ because they are defined in other files.
 
 This mod is not compatible with achievements because it overwrites a core Stellaris file.
 
-### Post-Game Start
+### When to Install
 
 This mod can be safely added or removed from your savegame after the game has started.  It only alters one worker job to fix the priority.  If you remove it, your game will work normally.
 
@@ -30,6 +30,7 @@ This mod can be safely added or removed from your savegame after the game has st
 * 1.0.1 Added incompatibility warning to README/description
 * 2.0.0 Compatible with Stellaris version 3.0.3
 * 2.0.1 Remove extra images files to keep distribution lightweight (no script changes)
+* 3.0.0 Updated for Stellaris version 3.1.* "Lem" - no changes what the mod does, just integrated the underlying game changes
 
 ## Source Code
 
