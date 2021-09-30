@@ -33,6 +33,7 @@ This mod can be safely added or removed from your savegame after the game has st
 * 2.0.0 Compatible with Stellaris version 3.0.3
 * 2.0.1 Remove extra images files to keep distribution lightweight (no script changes)
 * 3.0.0 Updated for Stellaris version 3.1.1 "Lem" - no changes to what the mod does, just integrated the underlying game changes
+* 3.0.1 Verify compatibility for Stellaris version 3.1.2 - no code changes
 
 ## Source Code
 
