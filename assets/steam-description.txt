@@ -12,7 +12,7 @@ this inverted rule, the condition is changed to an [b]OR[/b] which applies the b
 
 [h2]Compatibility[/h2]
 
-Built for Stellaris version 3.1.1 "Lem."
+Built for Stellaris version 3.1.2 "Lem."
 
 [b]If you use StarNet AI or StarTech AI, you do not need this mod.[/b]  In fact, it will mess up the custom job re-weighting in that mod because they alter the same file.
 
