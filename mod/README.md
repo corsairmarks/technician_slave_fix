@@ -12,15 +12,13 @@ this inverted rule, the condition is changed to an `OR` which applies the bonus 
 
 ## Compatibility
 
-Built for Stellaris version 3.1.2 "Lem."
-
 **If you use StarNet AI or StarTech AI, you do not need this mod.**  In fact, it will mess up the custom job re-weighting in that mod because they alter the same file.
 
 Because it replaces a core Stellaris file, this mod is inherently incompatible with any other mods that overwrite the same file.  Generally,
 any mod that alters the default worker jobs will not be compatible with this one.  Altering jobs for other strata should work as expected
 because they are defined in other files.
 
-This mod is not compatible with achievements because it overwrites a core Stellaris file.
+Built for Stellaris version 3.2.1 "Herbert." This mod is not compatible with achievements because it overwrites a core Stellaris file.
 
 ### When to Install
 
@@ -32,8 +30,9 @@ This mod can be safely added or removed from your savegame after the game has st
 * 1.0.1 Added incompatibility warning to README/description
 * 2.0.0 Compatible with Stellaris version 3.0.3
 * 2.0.1 Remove extra images files to keep distribution lightweight (no script changes)
-* 3.0.0 Updated for Stellaris version 3.1.1 "Lem" - no changes to what the mod does, just integrated the underlying game changes
+* 3.0.0 Updated for Stellaris version 3.1.1 "Lem" - no functionality changes, integrated underlying game changes
 * 3.0.1 Verify compatibility for Stellaris version 3.1.2 - no code changes
+* 4.0.0 Updated for Stellaris version 3.2.1 "Herbert" - no functionality changes, integrated underlying game changes
 
 ## Source Code
 
