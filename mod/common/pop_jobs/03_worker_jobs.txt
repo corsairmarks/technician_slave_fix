@@ -15,10 +15,7 @@ clerk = {
 		is_sapient = yes
 	}
 
-	possible = {
-		worker_job_check_trigger = yes
-	}
-
+	possible_precalc = can_fill_worker_job
 	planet_modifier = {
 		planet_amenities_add = 2
 		trade_value_add = 4
@@ -154,8 +151,9 @@ technician = {
 		is_sapient = yes
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
-		worker_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
 		owner = {
 			is_gestalt = no
 		}
@@ -318,9 +316,9 @@ miner = {
 		is_sapient = yes
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = { exists = owner }
-		worker_job_check_trigger = yes
 		owner = {
 			is_gestalt = no
 		}
@@ -460,8 +458,9 @@ crystal_miner = {
 		is_sapient = yes
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
-		worker_job_check_trigger = yes
+		hidden_trigger = { exists = owner }
 		owner = { is_gestalt = no }
 	}
 
@@ -575,10 +574,7 @@ gas_extractor = {
 		is_sapient = yes
 	}
 
-	possible = {
-		worker_job_check_trigger = yes
-	}
-
+	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_miners
 		produces = {
@@ -689,10 +685,7 @@ mote_harvester = {
 		is_sapient = yes
 	}
 
-	possible = {
-		worker_job_check_trigger = yes
-	}
-
+	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_miners
 		produces = {
@@ -803,9 +796,9 @@ farmer = {
 		is_sapient = yes
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = { exists = owner }
-		worker_job_check_trigger = yes
 		owner = {
 			is_gestalt = no
 		}
@@ -1172,10 +1165,7 @@ preacher = {
 		is_sapient = yes
 	}
 
-	possible = {
-		worker_job_check_trigger = yes
-	}
-
+	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_priests
 		produces = {
@@ -1327,8 +1317,8 @@ mortal_initiate = {
 		is_being_assimilated = no
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
-		worker_job_check_trigger = yes
 		NOT = { has_trait = trait_mechanical } #No machines
 	}
 
@@ -1422,11 +1412,7 @@ scrap_miner = {
 		is_sapient = yes
 	}
 
-	possible = {
-		hidden_trigger = { exists = owner }
-		worker_job_check_trigger = yes
-	}
-
+	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_miners
 		produces = {
@@ -1550,9 +1536,9 @@ angler = {
 		is_sapient = yes
 	}
 
+	possible_precalc = can_fill_worker_job
 	possible = {
 		hidden_trigger = { exists = owner }
-		worker_job_check_trigger = yes
 		owner = {
 			is_gestalt = no
 			is_anglers_empire = yes
@@ -1572,13 +1558,12 @@ angler = {
 		}
 	}
 
-	# To account for other things affecting Trade Value
 	triggered_planet_modifier = {
 		potential = {
 			has_trait = trait_thrifty
 		}
 		modifier = {
-			trade_value_add = 1
+			trade_value_add = 0.5
 		}
 	}
 
@@ -1587,39 +1572,7 @@ angler = {
 			has_trait = trait_nuumismatic_administration
 		}
 		modifier = {
-			trade_value_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_tradition = tr_mercantile_trickle_up_economics }
-		}
-		modifier = {
-			trade_value_add = 1
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			has_trait = trait_thrifty
-			exists = owner
-			owner = { has_tradition = tr_mercantile_trickle_up_economics }
-		}
-		modifier = {
-			trade_value_add = 0.25
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			has_trait = trait_nuumismatic_administration
-			exists = owner
-			owner = { has_tradition = tr_mercantile_trickle_up_economics }
-		}
-		modifier = {
-			trade_value_add = 0.1
+			trade_value_add = 0.2
 		}
 	}
 
