@@ -34,6 +34,7 @@ This mod can be safely added or removed from your savegame after the game has st
 * 3.0.1 Verify compatibility for Stellaris version 3.1.2 - no code changes
 * 4.0.0 Updated for Stellaris version 3.2.1 "Herbert" - no functionality changes, integrated underlying game changes
 * 4.0.1 Mark as compatible with Stellaris version 3.2.2 "Herbert" - the game patch had no script changes
+* 4.0.2 Update `mortal_initiate` job trigger
 
 ## Source Code
 
