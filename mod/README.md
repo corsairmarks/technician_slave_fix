@@ -18,6 +18,14 @@ Built for Stellaris version 3.3 "Libra." Not compatible with achievements.
 
 This mod can be safely added or removed from your savegame after the game has started.  It only alters one worker job to fix the weight.  If you remove it, your game will work normally.
 
+## Known Issues
+
+This mod overwrites overwrites one from the base game.  Expect to see an entry in error.log like this:
+
+```
+[01:10:12][game_singleobjectdatabase.h:147]: Object with key: technician already exists, using the one at  file: common/pop_jobs/10_technician_slave_fix_worker_job_overrides.txt line: 1
+```
+
 ## Changelog
 
 * 1.0.0 Initial Version
