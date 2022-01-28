@@ -1,28 +1,22 @@
 # Overview
 
-Are your (non-domestic) slaves refusing to take Technician jobs?  This mod will get them back to work producing wealth for their owners.
+Are your (non-domestic) slaves refusing to take Technician jobs?  This mod will get them back to work producing energy for their owners.
 
 # Changes
 
-This mod replaces the `common/pop_jobs/03_worker_jobs.txt` file that defines most worker-strata jobs.  The only change is to
-modify the weight condition for the `technician` job for enslaved populations (that are not domestic slaves).  The condition was incorrectly
-a `NOR` which requires every condition to be false (in this case, four flavors of energy credit traits) - this means that slaves **without**
-energy-enhancing traits will more strongly prefer being technicians.  This is the opposite of what should be intuitively happening.  To fix
-this inverted rule, the condition is changed to an `OR` which applies the bonus weight when an eligible pop has any of the eligible traits.
+As of Stellaris version 3.3 "Libra," this mod overrides _only_ the `technician` job.  The only change to the job is to modify the weight condition for enslaved Pops (that are not domestic slaves).  The condition was incorrectly a `NOR` which requires every condition to be false (in this case, four flavors of energy production traits) - which means that slaves _without_ energy-enhancing traits more strongly preferred being technicians.  This is the intuitively opposite of what should be happening.  To fix this inverted rule, the condition is changed to an `OR` which correctly applies the bonus weight when an eligible Pop has any of the eligible traits.
 
 ## Compatibility
 
-**If you use StarNet AI or StarTech AI, you do not need this mod.**  In fact, it will mess up the custom job re-weighting in that mod because they alter the same file.
+**If you use StarNet AI or StarTech AI, you do not need this mod.**  In fact, it may undo custom job re-weighting in that mod for the `technician` job.
 
-Because it replaces a core Stellaris file, this mod is inherently incompatible with any other mods that overwrite the same file.  Generally,
-any mod that alters the default worker jobs will not be compatible with this one.  Altering jobs for other strata should work as expected
-because they are defined in other files.
+Because this mod only overwrites the `technician` job, it is compatible with practically any other Stellaris mod that doesn't make changes to the same job.
 
-Built for Stellaris version 3.2.1 "Herbert." This mod is not compatible with achievements because it overwrites a core Stellaris file.
+Built for Stellaris version 3.3 "Libra." Not compatible with achievements.
 
 ### When to Install
 
-This mod can be safely added or removed from your savegame after the game has started.  It only alters one worker job to fix the priority.  If you remove it, your game will work normally.
+This mod can be safely added or removed from your savegame after the game has started.  It only alters one worker job to fix the weight.  If you remove it, your game will work normally.
 
 ## Changelog
 
@@ -35,6 +29,7 @@ This mod can be safely added or removed from your savegame after the game has st
 * 4.0.0 Updated for Stellaris version 3.2.1 "Herbert" - no functionality changes, integrated underlying game changes
 * 4.0.1 Mark as compatible with Stellaris version 3.2.2 "Herbert" - the game patch had no script changes
 * 4.0.2 Update `mortal_initiate` job trigger
+* 5.0.0 Updated for Stellaris version 3.3 "Libra" - the game now allows for single-job overwrites, so this mod has **much**-increased compatibility with other mods
 
 ## Source Code
 
