@@ -1,3 +1,5 @@
+**_DEPRECATED:_** Paradox has applied this fix in 3.3 "Libra" - if you have that version or higher, you do not need this mod.  It remains listed for players who choose to play the 3.2 "Herbert" and 3.1 "Lem" versions of Stellaris.
+
 # Overview
 
 Are your (non-domestic) slaves refusing to take Technician jobs?  This mod will get them back to work producing wealth for their owners.
@@ -18,7 +20,7 @@ Because it replaces a core Stellaris file, this mod is inherently incompatible w
 any mod that alters the default worker jobs will not be compatible with this one.  Altering jobs for other strata should work as expected
 because they are defined in other files.
 
-Built for Stellaris version 3.2.1 "Herbert." This mod is not compatible with achievements because it overwrites a core Stellaris file.
+Built for Stellaris version 3.2 "Herbert." This mod is not compatible with achievements because it overwrites a core Stellaris file.
 
 ### When to Install
 
@@ -35,6 +37,7 @@ This mod can be safely added or removed from your savegame after the game has st
 * 4.0.0 Updated for Stellaris version 3.2.1 "Herbert" - no functionality changes, integrated underlying game changes
 * 4.0.1 Mark as compatible with Stellaris version 3.2.2 "Herbert" - the game patch had no script changes
 * 4.0.2 Update `mortal_initiate` job trigger
+* 4.0.3 Mark as deprecated - unnecessary in Stellaris 3.3 "Libra" and higher
 
 ## Source Code
 
